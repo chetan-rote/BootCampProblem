@@ -20,3 +20,7 @@ echo "Result of operation2 is:"$Result2
 #UC4Compute3
 Result3=$(($number3+$number1/$number2))
 echo "Result of operation2 is:"$Result3
+
+#UC5Compute4
+Result4=$(($number1%$number2+$number3))
+echo "Result of operation4 is:"$Result4
