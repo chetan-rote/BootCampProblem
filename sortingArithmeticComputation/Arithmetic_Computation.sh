@@ -34,3 +34,15 @@ Dictionary[res1]=$Result1
 Dictionary[res2]=$Result2
 Dictionary[res3]=$Result3
 Dictionary[res4]=$Result4
+
+#UC7 Stores value in array
+echo "Dictionary elements are:" ${Dictionary[@]}
+
+#storing dictionary in array
+count=0
+for i in ${Dictionary[@]}
+do
+	array[((count++))]=$i
+done
+
+
