@@ -8,3 +8,7 @@
 read -p "enter first number 1:" num1
 read -p "enter second number 2:" num2
 read -p "enter third number 3:" num3
+
+#UC2Compute1
+Result1=$(($number1+$number2*$number3))
+echo "Result of operation1 is:"$Result1
