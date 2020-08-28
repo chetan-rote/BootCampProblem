@@ -24,3 +24,13 @@ echo "Result of operation2 is:"$Result3
 #UC5Compute4
 Result4=$(($number1%$number2+$number3))
 echo "Result of operation4 is:"$Result4
+
+#UCStores computation in Dictionary
+#delcaring a dictionary
+declare -A Dictionary
+
+#storing computation data in dictionary
+Dictionary[res1]=$Result1
+Dictionary[res2]=$Result2
+Dictionary[res3]=$Result3
+Dictionary[res4]=$Result4
