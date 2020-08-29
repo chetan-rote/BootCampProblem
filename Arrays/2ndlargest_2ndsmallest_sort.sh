@@ -12,7 +12,7 @@ do
 done
 	echo "${Array[@]}"
 
-
+ 
 second_Largest=$(printf '%s\n' "${Array[@]}" | sort -n | tail -2 | head -1)
 
 echo "Second Largest element is : $second_Largest"
