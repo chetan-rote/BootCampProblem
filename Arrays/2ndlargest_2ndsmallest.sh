@@ -23,7 +23,7 @@ done
 
 for((i=1; i < ${#Array[@]}; i++ )) 
 do
-	if [[ ${Array[i]} > $largest ]] #checking the element at i'th position is greater
+	if [[ ${Array[i]} > $largest ]] #checking the element at i'th position is greater 
 	then
 		secondLargest=$largest
 		largest=${Array[i]}
